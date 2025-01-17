@@ -11,7 +11,42 @@
 		7608F6FC2CE72C7D0002DC5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608F6FB2CE72C7D0002DC5E /* ContentView.swift */; };
 		7608F6FE2CE72C800002DC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7608F6FD2CE72C800002DC5E /* Assets.xcassets */; };
 		7608F7012CE72C800002DC5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7608F7002CE72C800002DC5E /* Preview Assets.xcassets */; };
+		7608F70E2CE7784F0002DC5E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7608F70D2CE7784E0002DC5E /* WidgetKit.framework */; };
+		7608F7102CE7784F0002DC5E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7608F70F2CE7784F0002DC5E /* SwiftUI.framework */; };
+		7608F7132CE7784F0002DC5E /* lifeIsShortBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608F7122CE7784F0002DC5E /* lifeIsShortBundle.swift */; };
+		7608F7152CE7784F0002DC5E /* lifeIsShortLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608F7142CE7784F0002DC5E /* lifeIsShortLiveActivity.swift */; };
+		7608F7172CE7784F0002DC5E /* lifeIsShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608F7162CE7784F0002DC5E /* lifeIsShort.swift */; };
+		7608F7192CE778520002DC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7608F7182CE778520002DC5E /* Assets.xcassets */; };
+		7608F71D2CE778520002DC5E /* lifeIsShortExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7608F70B2CE7784E0002DC5E /* lifeIsShortExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7608F7232CE786960002DC5E /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 7608F7222CE786950002DC5E /* InfoPlist.xcstrings */; };
+		7608F7242CE786960002DC5E /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 7608F7222CE786950002DC5E /* InfoPlist.xcstrings */; };
+		7608F7262CE786C00002DC5E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 7608F7252CE786C00002DC5E /* Localizable.xcstrings */; };
+		7608F7272CE786C00002DC5E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 7608F7252CE786C00002DC5E /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7608F71B2CE778520002DC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7608F6EE2CE72C7D0002DC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7608F70A2CE7784E0002DC5E;
+			remoteInfo = lifeIsShortExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7608F7212CE778520002DC5E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7608F71D2CE778520002DC5E /* lifeIsShortExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7608F6F62CE72C7D0002DC5E /* lifeIsTooShort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifeIsTooShort.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +54,16 @@
 		7608F6FB2CE72C7D0002DC5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7608F6FD2CE72C800002DC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7608F7002CE72C800002DC5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7608F70B2CE7784E0002DC5E /* lifeIsShortExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = lifeIsShortExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7608F70D2CE7784E0002DC5E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7608F70F2CE7784F0002DC5E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7608F7122CE7784F0002DC5E /* lifeIsShortBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeIsShortBundle.swift; sourceTree = "<group>"; };
+		7608F7142CE7784F0002DC5E /* lifeIsShortLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeIsShortLiveActivity.swift; sourceTree = "<group>"; };
+		7608F7162CE7784F0002DC5E /* lifeIsShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeIsShort.swift; sourceTree = "<group>"; };
+		7608F7182CE778520002DC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7608F71A2CE778520002DC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7608F7222CE786950002DC5E /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		7608F7252CE786C00002DC5E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +74,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7608F7082CE7784E0002DC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608F7102CE7784F0002DC5E /* SwiftUI.framework in Frameworks */,
+				7608F70E2CE7784F0002DC5E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		7608F6ED2CE72C7D0002DC5E = {
 			isa = PBXGroup;
 			children = (
+				7608F7252CE786C00002DC5E /* Localizable.xcstrings */,
+				7608F7222CE786950002DC5E /* InfoPlist.xcstrings */,
 				7608F6F82CE72C7D0002DC5E /* lifeIsTooShort */,
+				7608F7112CE7784F0002DC5E /* lifeIsShort */,
+				7608F70C2CE7784E0002DC5E /* Frameworks */,
 				7608F6F72CE72C7D0002DC5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				7608F6F62CE72C7D0002DC5E /* lifeIsTooShort.app */,
+				7608F70B2CE7784E0002DC5E /* lifeIsShortExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +126,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7608F70C2CE7784E0002DC5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7608F70D2CE7784E0002DC5E /* WidgetKit.framework */,
+				7608F70F2CE7784F0002DC5E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7608F7112CE7784F0002DC5E /* lifeIsShort */ = {
+			isa = PBXGroup;
+			children = (
+				7608F7122CE7784F0002DC5E /* lifeIsShortBundle.swift */,
+				7608F7142CE7784F0002DC5E /* lifeIsShortLiveActivity.swift */,
+				7608F7162CE7784F0002DC5E /* lifeIsShort.swift */,
+				7608F7182CE778520002DC5E /* Assets.xcassets */,
+				7608F71A2CE778520002DC5E /* Info.plist */,
+			);
+			path = lifeIsShort;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +157,34 @@
 				7608F6F22CE72C7D0002DC5E /* Sources */,
 				7608F6F32CE72C7D0002DC5E /* Frameworks */,
 				7608F6F42CE72C7D0002DC5E /* Resources */,
+				7608F7212CE778520002DC5E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7608F71C2CE778520002DC5E /* PBXTargetDependency */,
 			);
 			name = lifeIsTooShort;
 			productName = lifeIsTooShort;
 			productReference = 7608F6F62CE72C7D0002DC5E /* lifeIsTooShort.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7608F70A2CE7784E0002DC5E /* lifeIsShortExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7608F71E2CE778520002DC5E /* Build configuration list for PBXNativeTarget "lifeIsShortExtension" */;
+			buildPhases = (
+				7608F7072CE7784E0002DC5E /* Sources */,
+				7608F7082CE7784E0002DC5E /* Frameworks */,
+				7608F7092CE7784E0002DC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lifeIsShortExtension;
+			productName = lifeIsShortExtension;
+			productReference = 7608F70B2CE7784E0002DC5E /* lifeIsShortExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +199,9 @@
 					7608F6F52CE72C7D0002DC5E = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					7608F70A2CE7784E0002DC5E = {
+						CreatedOnToolsVersion = 15.2;
+					};
 				};
 			};
 			buildConfigurationList = 7608F6F12CE72C7D0002DC5E /* Build configuration list for PBXProject "lifeIsTooShort" */;
@@ -109,6 +211,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 7608F6ED2CE72C7D0002DC5E;
 			productRefGroup = 7608F6F72CE72C7D0002DC5E /* Products */;
@@ -116,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				7608F6F52CE72C7D0002DC5E /* lifeIsTooShort */,
+				7608F70A2CE7784E0002DC5E /* lifeIsShortExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +229,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7608F7232CE786960002DC5E /* InfoPlist.xcstrings in Resources */,
 				7608F7012CE72C800002DC5E /* Preview Assets.xcassets in Resources */,
+				7608F7262CE786C00002DC5E /* Localizable.xcstrings in Resources */,
 				7608F6FE2CE72C800002DC5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7608F7092CE7784E0002DC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608F7242CE786960002DC5E /* InfoPlist.xcstrings in Resources */,
+				7608F7192CE778520002DC5E /* Assets.xcassets in Resources */,
+				7608F7272CE786C00002DC5E /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +258,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7608F7072CE7784E0002DC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608F7132CE7784F0002DC5E /* lifeIsShortBundle.swift in Sources */,
+				7608F7172CE7784F0002DC5E /* lifeIsShort.swift in Sources */,
+				7608F7152CE7784F0002DC5E /* lifeIsShortLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7608F71C2CE778520002DC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7608F70A2CE7784E0002DC5E /* lifeIsShortExtension */;
+			targetProxy = 7608F71B2CE778520002DC5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7608F7022CE72C800002DC5E /* Debug */ = {
@@ -267,6 +401,7 @@
 		7608F7052CE72C800002DC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -275,11 +410,13 @@
 				DEVELOPMENT_TEAM = F7TRH9293R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Life Is Short";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +433,7 @@
 		7608F7062CE72C800002DC5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,11 +442,13 @@
 				DEVELOPMENT_TEAM = F7TRH9293R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Life Is Short";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +456,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = siantgirl.com.lifeIsTooShort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7608F71F2CE778520002DC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7TRH9293R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lifeIsShort/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = lifeIsShort;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = siantgirl.com.lifeIsTooShort.lifeIsShort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7608F7202CE778520002DC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7TRH9293R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lifeIsShort/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = lifeIsShort;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = siantgirl.com.lifeIsTooShort.lifeIsShort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +535,15 @@
 			buildConfigurations = (
 				7608F7052CE72C800002DC5E /* Debug */,
 				7608F7062CE72C800002DC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7608F71E2CE778520002DC5E /* Build configuration list for PBXNativeTarget "lifeIsShortExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7608F71F2CE778520002DC5E /* Debug */,
+				7608F7202CE778520002DC5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
