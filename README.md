@@ -1,1 +1,1 @@
-# -lifeIsTooShort
+# lifeIsTooShort
